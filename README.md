@@ -19,10 +19,10 @@ stripe_key = "YOUR STRIPE KEY"                              // https://stripe.co
 ```
 
 ## Repositories
-The following commands clone this repository and create Fivetran resource with each of the subrepositories
+The following commands clone this repository and create Fivetran resource with each of the subrepositories. Before running, edit the variables.tf file in each repo.
 ```
 git clone https://github.com/PubChimps/fivetran-terraform
-cd repositories/dev
+cd repositories/dev         
 terraform init
 terraform plan
 terraform apply
@@ -39,7 +39,7 @@ The following commands clone this repository, create 3 Terraform workspaces and 
 
 ```
 git clone https://github.com/PubChimps/fivetran-terraform
-cd workspaces
+cd workspaces                 //edit variables.tf file
 terraform init
 terraform workspace new dev
 terraform plan
