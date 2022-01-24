@@ -4,9 +4,12 @@ This repo has code to create multiple modern data stacks with the [Fivetran Terr
 
 There are 4 files used in different ways 
 
-*main.tf* - A terraform module that will create a Fivetran connector
+*main.tf* - A terraform module that will create a Fivetran connector 
+
 *outputs.tf* - Formats and generates output values from main.tf
+
 *terraform.tfvars* - Contains value for each variable declared in variables.tf
+
 *variables.tf* - Defines variables that are used in main.tf
 
 After cloning this repo, terraform.tfvars the following lines will have to be edited, regardless of which option is used to separate deployments 
